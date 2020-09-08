@@ -62,6 +62,10 @@ calc.ob.addEventListener('click', function(){
     calc.result.value *= '-1';
 }, false)
 
+calc.percent.addEventListener('click', function(){
+    calc.result.value /= '100';
+}, false)
+
 calc.equal.addEventListener('click', function() {
     calc.result.value = eval(calc.result.value);
 }, false)

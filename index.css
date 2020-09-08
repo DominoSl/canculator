@@ -6,7 +6,6 @@
   }
   
  body {
-margin: auto;
  } 
 
 #calc {
@@ -18,11 +17,12 @@ margin: auto;
 }
 
 #result {
-    height: 100px;
+    height: 125px;
     width: 400px;
     background-color: rgb(39, 48, 47);
     color: white;
     text-align: right;
+    font-size: 200%;
 }
 
 .but {
@@ -32,12 +32,25 @@ margin: auto;
     color: white;
 }
 
+.but:active {
+    background-color:rgb(74, 85, 84);
+ }
+
 .numbers{
     background-color: rgb(90, 99, 97);
 }
 
+
+.numbers:active{
+    background-color: rgb(106, 116, 113);
+}
+
 .orange {
     background-color: rgb(252, 161, 8);    
+}
+
+.orange:active {
+    background-color: rgb(248, 213, 55);    
 }
 
 #zero {
