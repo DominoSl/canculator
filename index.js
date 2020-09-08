@@ -1,3 +1,7 @@
+calc.zero.addEventListener('click', function() {
+    calc.result.value += '0';
+}, false)
+
 calc.one.addEventListener('click', function() {
     calc.result.value += '1';
 }, false)
@@ -34,20 +38,16 @@ calc.nine.addEventListener('click', function() {
     calc.result.value += '9';
 }, false)
 
-calc.plus.addEventListener('click', function(){
-    calc.result.value *= '*';
+calc.mult.addEventListener('click', function(){
+    calc.result.value += '*';
 }, false)
 
 calc.div.addEventListener('click', function(){
-    calc.result.value /= '/';
+    calc.result.value += '/';
 }, false)
 
-calc.plus.addEventListener('click', function(){
-    calc.result.value -= '-';
-}, false)
-
-calc.plus.addEventListener('click', function(){
-    calc.result.value += '+';
+calc.minus.addEventListener('click', function(){
+    calc.result.value += '-';
 }, false)
 
 calc.plus.addEventListener('click', function(){
@@ -56,6 +56,10 @@ calc.plus.addEventListener('click', function(){
 
 calc.AC.addEventListener('click', function(){
     calc.result.value = '';
+}, false)
+
+calc.ob.addEventListener('click', function(){
+    calc.result.value *= '-1';
 }, false)
 
 calc.equal.addEventListener('click', function() {

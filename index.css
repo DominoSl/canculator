@@ -2,20 +2,27 @@
     box-sizing: border-box;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    border-radius: 4px;
   }
+  
+ body {
+margin: auto;
+ } 
 
 #calc {
+
     display: flex;
     width: 400px;
     flex-flow: row wrap;
     background-color: black;
-    align-items: center;
-    justify-items: center;
-    }
+}
 
 #result {
     height: 100px;
     width: 400px;
+    background-color: rgb(39, 48, 47);
+    color: white;
+    text-align: right;
 }
 
 .but {
@@ -26,7 +33,7 @@
 }
 
 .numbers{
-background-color: rgb(37, 48, 47);
+    background-color: rgb(90, 99, 97);
 }
 
 .orange {
@@ -37,12 +44,4 @@ background-color: rgb(37, 48, 47);
     flex-basis: 300px;
 }
 
-
-
-39, 48, 47
-
-59, 68, 67
-
-90, 99, 97 
-
-252, 161, 8 orange
+ 
