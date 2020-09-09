@@ -38,6 +38,10 @@ calc.nine.addEventListener('click', function() {
     calc.result.value += '9';
 }, false)
 
+calc.dot.addEventListener('click', function() {
+    calc.result.value += '.';
+}, false)
+
 calc.mult.addEventListener('click', function(){
     calc.result.value += '*';
 }, false)
