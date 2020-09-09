@@ -3,6 +3,7 @@
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     border-radius: 4px;
+    border-color: rgba(1 1 1 0);
   }
   
  body {
@@ -54,7 +55,7 @@
 }
 
 #zero {
-    flex-basis: 300px;
+    flex-basis: 200px;
 }
 
  
